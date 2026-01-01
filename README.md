@@ -88,3 +88,25 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+## Usage
+
+- Register a new account
+
+- Log in
+
+- Add topics for your learning goals
+
+- Add entries under each topic
+
+- Edit or delete topics and entries as needed
+
+## Technologies
+
+- Python 3.x
+
+- Django 4.x
+
+- Bootstrap 4
+
+- SQLite (default database)
+
