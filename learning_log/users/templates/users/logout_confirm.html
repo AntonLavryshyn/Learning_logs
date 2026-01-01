@@ -1,0 +1,18 @@
+{% extends "learning_logs/base.html" %}
+
+{% block content %}
+  <h3 class="text-center">Are you sure you want to Log out?</h3>
+
+  <div class="d-flex justify-content-between">
+    <form method="post" action="{% url 'users:logout' %}">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">
+      Log out
+    </button>
+    </form>
+
+    <a href="{% url 'learning_logs:topics' %}" class="btn btn-success">
+      Go to Topics
+    </a>
+  </div>
+{% endblock content %}
