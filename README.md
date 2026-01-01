@@ -57,8 +57,3 @@ Follow these steps to run the project locally:
 git clone https://github.com/AntonLavryshyn/Learning_logs.git
 
 
-Django 4.x
-
-Bootstrap 4
-
-SQLite (default database)
