@@ -55,36 +55,37 @@ Follow these steps to run the project locally:
 1. Clone the repository:
 ```bash
 git clone https://github.com/AntonLavryshyn/Learning_logs.git
+```
 
 2. Navigate to the project folder:
 ```bash
 cd Learning_logs
-
+```
 
 3. Create a virtual environment:
 Windows:
 ```bash
 python -m venv env
 env\Scripts\activate
-
+```
 macOS/Linux:
 ```bash
 python -m venv env
 source env/bin/activate
-
+```
 
 4. Install the project dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 
 5.Apply database migrations:
 ```bash
 python manage.py migrate
-
+```
 
 6. Run the development server:
 ```bash
 python manage.py runserver
-
+```
 
