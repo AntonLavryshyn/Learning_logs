@@ -63,12 +63,11 @@ cd Learning_logs
 ```
 
 3. Create a virtual environment:
-Windows:
 ```bash
 python -m venv env
 env\Scripts\activate
 ```
-macOS/Linux:
+  macOS/Linux:
 ```bash
 python -m venv env
 source env/bin/activate
@@ -79,7 +78,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-5.Apply database migrations:
+5.  Apply database migrations:
 ```bash
 python manage.py migrate
 ```
