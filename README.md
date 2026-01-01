@@ -53,58 +53,9 @@ Follow these steps to run the project locally:
 ### Installation
 
 1. Clone the repository:
-
 ```bash
 git clone https://github.com/AntonLavryshyn/Learning_logs.git
-Navigate to the project folder:
 
-bash
-Копіювати код
-cd Learning_logs
-Create and activate a virtual environment:
-
-Windows:
-
-bash
-Копіювати код
-python -m venv env
-env\Scripts\activate
-macOS/Linux:
-
-bash
-Копіювати код
-python -m venv env
-source env/bin/activate
-Install dependencies:
-
-bash
-Копіювати код
-pip install -r requirements.txt
-Apply database migrations:
-
-bash
-Копіювати код
-python manage.py migrate
-Run the development server:
-
-bash
-Копіювати код
-python manage.py runserver
-Open your browser at http://127.0.0.1:8000/
-
-Usage
-Register a new user
-
-Log in
-
-Add topics for your learning goals
-
-Add entries under each topic
-
-Edit or delete topics and entries as needed
-
-Technologies
-Python 3.x
 
 Django 4.x
 
